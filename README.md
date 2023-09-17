@@ -170,7 +170,7 @@ MMCM 是一个 PLL 上加入 DCM 的一部分以进行精细的相移，也就�
 
 接下来我们创建一个 verilog 源文件，其名称为 ip_clk_wiz.v，代码如下：
 
-```
+```verilog
 module  ip_clk_wiz(
     input               sys_clk        ,  //系统时钟
     input               sys_rst_n      ,  //系统复位，低电平有效
@@ -214,7 +214,7 @@ endmodule
 
 我们接下来对代码进行仿真，因为本实验我们只有系统时钟和系统复位这两个输入信号，所以仿真文件也只需要编写这两个信号的激励即可， TestBench 代码如下：
 
-```
+```verilog
 `timescale 1ns / 1ps        //仿真单位/仿真精度
 
 module tb_ip_clk_wiz();
