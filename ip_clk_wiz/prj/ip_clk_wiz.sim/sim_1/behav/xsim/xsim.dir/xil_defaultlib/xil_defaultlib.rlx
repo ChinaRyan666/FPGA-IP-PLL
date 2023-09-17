@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/prj/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v,1683609316,verilog,,D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/rtl/ip_clk_wiz.v,,clk_wiz_0;clk_wiz_0_clk_wiz_0_clk_wiz,,,,,,,,
+D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/prj/ip_clk_wiz.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/rtl/ip_clk_wiz.v,1682663720,verilog,,D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/sim/tb/tb_ip_clk_wiz.v,,ip_clk_wiz,,,,,,,,
+D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/sim/tb/tb_ip_clk_wiz.v,1677152941,verilog,,,,tb_ip_clk_wiz,,,,,,,,

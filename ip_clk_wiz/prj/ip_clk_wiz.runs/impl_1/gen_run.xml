@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-2" LaunchTime="1683609278">
+  <File Type="ROUTE-PWR" Name="ip_clk_wiz_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ip_clk_wiz.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="ip_clk_wiz_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ip_clk_wiz_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="ip_clk_wiz.msk"/>
+  <File Type="ROUTE-CLK" Name="ip_clk_wiz_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="ip_clk_wiz.vdi"/>
+  <File Type="BG-BIT" Name="ip_clk_wiz.bit"/>
+  <File Type="BG-DRC" Name="ip_clk_wiz.drc"/>
+  <File Type="BG-BGN" Name="ip_clk_wiz.bgn"/>
+  <File Type="BG-BIN" Name="ip_clk_wiz.bin"/>
+  <File Type="BITSTR-RBT" Name="ip_clk_wiz.rbt"/>
+  <File Type="BITSTR-NKY" Name="ip_clk_wiz.nky"/>
+  <File Type="BITSTR-BMM" Name="ip_clk_wiz_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ip_clk_wiz_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="ip_clk_wiz.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="ip_clk_wiz.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ip_clk_wiz.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="ip_clk_wiz_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ip_clk_wiz.hwdef"/>
+  <File Type="PLACE-IO" Name="ip_clk_wiz_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ip_clk_wiz_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ip_clk_wiz_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ip_clk_wiz_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ip_clk_wiz_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="ip_clk_wiz_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ip_clk_wiz_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ip_clk_wiz_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ip_clk_wiz_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ip_clk_wiz_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="ip_clk_wiz_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ip_clk_wiz_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ip_clk_wiz_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ip_clk_wiz_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ip_clk_wiz_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ip_clk_wiz_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ip_clk_wiz_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ip_clk_wiz_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ip_clk_wiz_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="ip_clk_wiz_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="ip_clk_wiz_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="ip_clk_wiz_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ip_clk_wiz_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="ip_clk_wiz_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ip_clk_wiz_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ip_clk_wiz_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ip_clk_wiz_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="ip_clk_wiz_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ip_clk_wiz_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="ip_clk_wiz.pdi"/>
+  <File Type="RCFI_FILE" Name="ip_clk_wiz.rcfi"/>
+  <File Type="CFI_FILE" Name="ip_clk_wiz.cfi"/>
+  <File Type="RNPI_FILE" Name="ip_clk_wiz.rnpi"/>
+  <File Type="NPI_FILE" Name="ip_clk_wiz.npi"/>
+  <File Type="RBD_FILE" Name="ip_clk_wiz.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../rtl/ip_clk_wiz.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ip_clk_wiz"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/ip_clk_wiz.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

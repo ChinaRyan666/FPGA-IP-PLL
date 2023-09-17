@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Sep 15 17:35:57 2023
+# Process ID: 13276
+# Current directory: D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5220 D:\Develop\ZYNQ_A_New\4_Source_Code\1_FPGA_Design\ZYNQ_7020_FPGA\15_ip_clk_wiz\prj\ip_clk_wiz.xpr
+# Log file: D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/prj/vivado.log
+# Journal file: D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/prj/ip_clk_wiz.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_ip_clk_wiz.tcl
+run 20 us
+restart
+run 20 us
+close_sim

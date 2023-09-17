@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/prj/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/rtl/ip_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/sim/tb/tb_ip_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ip_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/prj/ip_clk_wiz.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'glbl' [D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/15_ip_clk_wiz/prj/ip_clk_wiz.sim/sim_1/behav/xsim/glbl.v:6]
